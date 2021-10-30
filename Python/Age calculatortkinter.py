@@ -1,8 +1,8 @@
-import datetime
+import datetime         
 import tkinter as tk
-window=tk.Tk()
-window.geometry("620x780")
-window.title(" Age Calculator App ")
+window=tk.Tk()#creating the window
+window.geometry("620x780")#fixing the size of the window
+window.title(" Age Calculator App ")#writing the title of the window
 name = tk.Label(text = "Name")
 name.grid(column=0,row=1)
 year = tk.Label(text = "Year")
